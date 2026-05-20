@@ -1,0 +1,6 @@
+# Core runtime/build dependencies for the velocity minimal CI path.
+# Keep this file lightweight: no pytest, no plotting stack, no notebooks.
+numpy>=1.24
+pandas>=2.0
+jsonschema>=4.0
+pyproj>=3.5

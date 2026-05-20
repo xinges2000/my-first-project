@@ -1,0 +1,4 @@
+# Optional / extended dependencies for non-blocking QC and plotting workflows.
+# Keep optional dependencies out of requirements-test.txt.
+-r requirements.txt
+matplotlib>=3.7

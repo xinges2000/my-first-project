@@ -1,0 +1,4 @@
+# Minimal pytest dependencies for velocity minimal CI.
+# This layer is intended for the blocking CI pytest set only.
+-r requirements.txt
+pytest>=7.4
