@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "model_type": "1d_layered_equiv_traveltime",
+  "z_positive": "down",
+  "units": {
+    "length": "m",
+    "velocity": "m/s"
+  },
+  "layers": {
+    "P": [
+      {
+        "layer_id": 0,
+        "z_top_m": 0.0,
+        "z_bot_m": 100.0,
+        "v_mps": 3000.0
+      },
+      {
+        "layer_id": 1,
+        "z_top_m": 100.0,
+        "z_bot_m": 200.0,
+        "v_mps": 3500.0
+      }
+    ],
+    "S": [
+      {
+        "layer_id": 0,
+        "z_top_m": 0.0,
+        "z_bot_m": 100.0,
+        "v_mps": 1700.0
+      },
+      {
+        "layer_id": 1,
+        "z_top_m": 100.0,
+        "z_bot_m": 200.0,
+        "v_mps": 1900.0
+      }
+    ]
+  }
+}
